@@ -89,7 +89,7 @@ else{
             for(let i = 0 ; i< arr.length ; i++){
                 content +=`
                 <div class="col-md-3">
-                    <div class="dataMeal rounded-pill    overflow-hidden position-relative text-center" onclick="getDetails('${arr[i].strCategory}')">
+                    <div class="dataMeal rounded-4    overflow-hidden position-relative text-center" onclick="getDetails('${arr[i].strCategory}')">
                         <img src="${arr[i].strMealThumb}" alt="" class="w-100">
                         <div class="detailsOfMeal position-absolute " >
                         <h3 class='pt-4 fs-5'>${arr[i].strCategory}</h3>
@@ -129,7 +129,7 @@ else{
         for(let i = 0 ; i< arr.length ; i++){
             content +=`
             <div class="col-md-3">
-                <div class="dataMeal rounded-pill    overflow-hidden position-relative text-center" onclick="getDetails('${arr[i].strCategory}')">
+                <div class="dataMeal rounded-4    overflow-hidden position-relative text-center" onclick="getDetails('${arr[i].strCategory}')">
                     <img src="${arr[i].strMealThumb}" alt="" class="w-100">
                     <div class="detailsOfMeal position-absolute " >
                     <h3 class='pt-4 fs-5'>${arr[i].strCategory}</h3>
@@ -165,7 +165,7 @@ else{
         for(let i = 0 ; i< arr.length ; i++){
             content +=`
             <div class="col-md-3">
-                <div class="dataMeal rounded-pill   overflow-hidden position-relative text-center" onclick="getDetails('${arr[i].strCategory}')">
+                <div class="dataMeal rounded-4   overflow-hidden position-relative text-center" onclick="getDetails('${arr[i].strCategory}')">
                     <img src="${arr[i].strCategoryThumb}" alt="" class="w-100">
                     <div class="detailsOfMeal position-absolute " >
                     <h3 class='pt-4 fs-5'>${arr[i].strCategory}</h3>
@@ -215,7 +215,7 @@ $('.navLinks li').eq(1).click(function(){
     for(let i = 0 ; i< arr.length ; i++){
         content +=`
         <div class="col-md-3">
-            <div class="dataMeal rounded-pill   overflow-hidden position-relative text-center" onclick="getDetailsOfMeals(${arr[i].idMeal})">
+            <div class="dataMeal rounded-4   overflow-hidden position-relative text-center" onclick="getDetailsOfMeals(${arr[i].idMeal})">
                 <img src="${arr[i].strMealThumb}" alt="" class="w-100">
                 <div class="detailsOfMeal position-absolute " >
                 <h3 class='pt-2 fs-6'>${arr[i].strMeal}</h3>
@@ -334,7 +334,7 @@ $('.navLinks li').eq(1).click(function(){
     for(let i = 0 ; i< arr.length ; i++){
         content +=`
         <div class="col-md-3">
-            <div class="dataMeal rounded-pill   overflow-hidden position-relative text-center  " id='containerOfArea'onclick="getAreaDetails('${arr[i].strArea}')">
+            <div class="dataMeal rounded-4   overflow-hidden position-relative text-center  " id='containerOfArea'onclick="getAreaDetails('${arr[i].strArea}')">
                 <i class="fa-solid fa-street-view fa-3x"></i>
                 <h3 class='pt-4 fs-5' id='area'>${arr[i].strArea}</h3>
             </div>
@@ -382,7 +382,7 @@ $('.navLinks li').eq(2).click(function(){
     for(let i = 0 ; i< arr.length ; i++){
         content +=`
         <div class="col-md-3">
-            <div class="dataMeal rounded-pill   overflow-hidden position-relative text-center" onclick="getDetailsOfMeals(${arr[i].idMeal})">
+            <div class="dataMeal rounded-4   overflow-hidden position-relative text-center" onclick="getDetailsOfMeals(${arr[i].idMeal})">
                 <img src="${arr[i].strMealThumb}" alt="" class="w-100">
                 <div class="detailsOfMeal position-absolute " >
                 <h3 class='pt-4 fs-5'>${arr[i].strMeal}</h3>
@@ -427,7 +427,7 @@ $('#searchContainer').html('')  ;
     for(let i = 0 ; i< arr.length ; i++){
         content +=`
         <div class="col-md-3">
-            <div class="dataMeal rounded-pill   overflow-hidden position-relative text-center  " id='containerOfArea'onclick="getIngredientsDetails('${arr[i].strIngredient}')">
+            <div class="dataMeal rounded-4   overflow-hidden position-relative text-center  " id='containerOfArea'onclick="getIngredientsDetails('${arr[i].strIngredient}')">
             <i class="fa-solid fa-bowl-rice fa-3x"></i>
             <h3 class='pt-4 fs-5' id='area'>${arr[i].strIngredient}</h3>
         </div>
@@ -472,7 +472,7 @@ $('.navLinks li').eq(3).click(function(){
     for(let i = 0 ; i< arr.length ; i++){
         content +=`
         <div class="col-md-3">
-            <div class="dataMeal rounded-pill   overflow-hidden position-relative text-center" onclick="getDetailsOfMeals(${arr[i].idMeal})">
+            <div class="dataMeal rounded-4   overflow-hidden position-relative text-center" onclick="getDetailsOfMeals(${arr[i].idMeal})">
                 <img src="${arr[i].strMealThumb}" alt="" class="w-100">
                 <div class="detailsOfMeal position-absolute " >
                 <h3 class='pt-4 fs-5'>${arr[i].strMeal}</h3>
